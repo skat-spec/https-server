@@ -1,0 +1,2 @@
+language = "bash"
+run = "node s2.0/server.js"

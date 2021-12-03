@@ -5,7 +5,7 @@ const path = require("path");
 const fs = require("fs");
 const options = {
     "ssl": {
-        pfx: fs.readFileSync("ssl/192.168.31.165/server.pfx"),
+        pfx: fs.readFileSync(__dirname + "/ssl/192.168.31.165/server.pfx"),
         passphrase: "password"
     },
     "address": {
